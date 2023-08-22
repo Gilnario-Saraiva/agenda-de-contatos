@@ -24,3 +24,20 @@ h1 {
 	border: 0;
 	cursor: pointer;
 }
+
+.Caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #cb4a2e;
+	border-radius: 5px;
+	
+}
+
+.Caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #cb4a2e;
+	border-radius: 5px;
+	
+}
