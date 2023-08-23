@@ -43,9 +43,6 @@ public class Controller extends HttpServlet {
 	// Novo contato
 		protected void novoContato(HttpServletRequest request, HttpServletResponse response)
 				throws ServletException, IOException {
-			System.out.println(request.getParameter("nome"));
-			System.out.println(request.getParameter("fone"));
-			System.out.println(request.getParameter("email"));
 			//setar variaveis javabeans
 			contato.setNome(request.getParameter("nome"));
 			contato.setFone(request.getParameter("fone"));
